@@ -1,0 +1,1 @@
+declare module '@constructions-incongrues/faircamp-cms-ui';
