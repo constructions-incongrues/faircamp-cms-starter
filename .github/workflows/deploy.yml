@@ -30,6 +30,7 @@ jobs:
           npm install -g pnpm
           pnpm install
           pnpm build
+        working-directory: cms
       - name: Upload CMS
         id: deployment
         uses: actions/upload-pages-artifact@v3
