@@ -9,7 +9,7 @@
     "@sveltia/cms": "^0.74.0"
   },
   "scripts": {
-    "build": "bun build src/index.html --outdir=dist --minify --env 'FAIRCAMP_CMS_*'",
+    "build": "bun build src/index.html --outdir=dist --minify --env 'FCCMS_BACKEND_*'",
     "dev": "bun src/index.html"
   }
 }

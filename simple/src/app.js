@@ -4,7 +4,9 @@ import { getConfig } from '@constructions-incongrues/faircamp-cms-config';
 init({
   config: getConfig({
     backend: {
-      repo: process.env.FAIRCAMP_CMS_REPO
+      name: 'github',
+      repo: process.env.FCCMS_BACKEND_REPO,
+      branch: 'main'
     }
   }),
   target: '#app'
