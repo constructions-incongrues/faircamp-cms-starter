@@ -27,19 +27,19 @@ jobs:
         uses: actions/setup-node@v4
       - name: Build CMS
         run: |
-          npm install -g pnpm
-          pnpm install
-          pnpm build --base /faircamp-cms-starter
+          npm install -g bun
+          bun install
+          bun build ./simple/src --outdir ./simple/dist
         working-directory: cms
       - name: Upload CMS
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: cms/dist
+          path: simple/dist
 
   deploy:
     environment:
-      name: "github-pages"
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
