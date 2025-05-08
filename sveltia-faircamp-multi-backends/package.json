@@ -1,7 +1,7 @@
 {
   "name": "sverta-multi-backends",
   "version": "0.1.0",
-  "description": "A simple Sveltia multi-backend example",
+  "description": "A sveltia-faircamp-multi-backends Sveltia multi-backend example",
   "author": "Constructions Incongrues",
   "license": "MIT",
   "private": true,

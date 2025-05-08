@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "simple",
+      "name": "sveltia-faircamp-multi-backends",
       "dependencies": {
         "@constructions-incongrues/faircamp-cms-config": "^0.3.0",
         "@sveltia/cms": "^0.74.0",
