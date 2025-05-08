@@ -30,7 +30,7 @@ jobs:
         run: |
           npm install -g bun
           bun install
-          FAIRCAMP_CMS_REPO=${{ vars.FAIRCAMP_CMS_REPO }} bun run build
+          FAIRCAMP_CMS_REPO='${{ vars.FAIRCAMP_CMS_REPO }}' bun run build
       - name: simple (upload)
         id: deployment
         uses: actions/upload-pages-artifact@v3
