@@ -10,6 +10,6 @@
   },
   "scripts": {
     "build": "bun build src/index.html --outdir=dist --minify --env 'FCCMS_BACKEND_*'",
-    "dev": "bun src/index.html"
+    "dev": "bun ./src/backends/index.html ./src/backends/**/*.html"
   }
 }
