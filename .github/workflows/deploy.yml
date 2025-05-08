@@ -25,13 +25,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v4
-      - name: Build CMS
+      - name: simple (build)
+        working-directory: simple
         run: |
           npm install -g bun
           bun install
-          bun build ./simple/src --outdir ./simple/dist
-        working-directory: cms
-      - name: Upload CMS
+          bun build src --outdir dist
+      - name: simple (upload)
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
