@@ -1,4 +1,4 @@
-# simple
+# sveltia-multi-backends
 
 To install dependencies:
 

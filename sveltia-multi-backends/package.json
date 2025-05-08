@@ -1,5 +1,9 @@
 {
-  "name": "simple",
+  "name": "sverta-multi-backends",
+  "version": "0.1.0",
+  "description": "A simple Sveltia multi-backend example",
+  "author": "Constructions Incongrues",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"

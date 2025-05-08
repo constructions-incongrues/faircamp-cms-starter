@@ -25,17 +25,17 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v4
-      - name: simple (build)
-        working-directory: simple
+      - name: sveltia-multi-backends (build)
+        working-directory: sveltia-multi-backends
         run: |
           npm install -g bun
           bun install
           FCCMS_BACKEND_REPO='${{ vars.FCCMS_BACKEND_REPO }}' bun run build
-      - name: simple (upload)
+      - name: sveltia-multi-backends (upload)
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: simple/dist
+          path: sveltia-multi-backends/dist
 
   deploy:
     environment:
