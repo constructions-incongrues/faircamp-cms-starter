@@ -1,0 +1,18 @@
+{
+  "name": "Node.js 18 & pnpm",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "postCreateCommand": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install",
+  "workspaceFolder": "/workspace/cms",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+} 
