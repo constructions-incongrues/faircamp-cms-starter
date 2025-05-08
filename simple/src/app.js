@@ -5,8 +5,8 @@ init({
   config: getConfig({
     backend: {
       name: 'github',
-      repo: process.env.FCCMS_BACKEND_REPO,
-      branch: 'main'
+      repo: process.env.FCCMS_BACKEND_REPO || 'constructions-incongrues/faircamp-cms-starter',
+      branch: process.env.FCCMS_BACKEND_BRANCH || 'main'
     }
   }),
   target: '#app'
