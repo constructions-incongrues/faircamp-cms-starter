@@ -5,6 +5,7 @@
       "name": "simple",
       "dependencies": {
         "@constructions-incongrues/faircamp-cms-config": "^0.3.0",
+        "@sveltia/cms": "^0.74.0",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -15,6 +16,8 @@
     "@constructions-incongrues/faircamp-cms-collections": ["@constructions-incongrues/faircamp-cms-collections@0.1.0", "", { "dependencies": { "lodash.merge": "^4.6.2", "ts-essentials": "^9.4.2" } }, "sha512-BluObaE5Ygro3uv10T6I9m+LZjWJxZqcQtcrth5Nwj3vHwmrbyQfOn3+PX/h+UvrQc5ftnd9hrFC9RpSR7qz0A=="],
 
     "@constructions-incongrues/faircamp-cms-config": ["@constructions-incongrues/faircamp-cms-config@0.3.0", "", { "dependencies": { "@constructions-incongrues/faircamp-cms-collections": "^0.1.0" } }, "sha512-eDOkIqvymhDtUhuwwERCJLvFZEjwhIUGnd2KtbJ3cS9Hhu6lJAS3nIkZLLsBy3ZqmD9FvGBYFXOu7aY85RUWjQ=="],
+
+    "@sveltia/cms": ["@sveltia/cms@0.74.0", "", {}, "sha512-tF/MxgIx3hj1nXIAI0fnml30l/wlxxLuCgM5+tkCnd2LsAqNMKCE6LFXOK5XNVGu3oWiDaUwJdDTcvettenRaw=="],
 
     "@types/bun": ["@types/bun@1.2.12", "", { "dependencies": { "bun-types": "1.2.12" } }, "sha512-lY/GQTXDGsolT/TiH72p1tuyUORuRrdV7VwOTOjDOt8uTBJQOJc5zz3ufwwDl0VBaoxotSk4LdP0hhjLJ6ypIQ=="],
 
