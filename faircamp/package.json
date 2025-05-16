@@ -1,5 +1,5 @@
 {
-  "name": "sverta-multi-backends",
+  "name": "@constructions-incongrues/tumultes-starters-faircamp",
   "version": "0.1.0",
   "description": "A sveltia-faircamp-multi-backends Sveltia multi-backend example",
   "author": "Constructions Incongrues",
@@ -9,8 +9,9 @@
     "@types/bun": "latest"
   },
   "dependencies": {
-    "@constructions-incongrues/faircamp-cms-config": "^0.3.0",
-    "@sveltia/cms": "^0.74.0"
+    "@constructions-incongrues/tumultes-faircamp": "^0.2.0",
+    "@sveltia/cms": "^0.75.0",
+    "decap-cms": "^3.6.3"
   },
   "scripts": {
     "build": "bun build ./src/backends/index.html ./src/backends/**/*.html --outdir=dist --minify --env 'FCCMS_BACKEND_*'",

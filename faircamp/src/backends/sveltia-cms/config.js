@@ -1,5 +1,7 @@
 import { init } from '@sveltia/cms';
-import { getConfig } from '@constructions-incongrues/faircamp-cms-config';
+import { getConfig, setActiveConfig } from '@constructions-incongrues/tumultes-faircamp';
+
+setActiveConfig('sveltiaCms');
 
 init({
   config: getConfig({
